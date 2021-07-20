@@ -1,0 +1,16 @@
+/* put a border around the parent container */ 
+#container 
+{
+  width: 500px;
+  height: 500px; 
+  border: 3px dotted black; 
+}
+
+/* add an inline-block for all div elements in the conatainer */ 
+#container > div 
+{
+  display: inline-block;
+  border: 1px solid black; 
+}
+
+
